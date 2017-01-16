@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">NavigationView MaterialDesign</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_add">Add</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="action_back">Back</string>
+    <string name="action_add_car">Añadir al Carrito</string>
+    <string name="inicio">Outfit Favoritos</string>
+    <string name="contraseña_actual">Contraseña Actual</string>
+    <string name="contraseña_nueva">Nueva Contraseña</string>
+    <string name="contraseña_repetir_nueva">Repetir Nueva Contraseña</string>
+    <string name="action_guardar">Guardar</string>
+    <string name="action_cancelar">Cancelar</string>
+    <string name="tag_image">image</string>
+
+    <!--NavigationView -->
+    <string name="title_section1">Inicio</string>
+    <string name="title_section2">Mi Perfil</string>
+    <string name="title_section3">Outfit</string>
+    <string name="title_section4">Configuracion</string>
+    <string name="title_section5">Cambiar Contraseña</string>
+    <string name="title_section6">Cerrar Sesion</string>
+
+    <!-- Usuario-->
+    <string name="info_usuario">Informacion del Usuario</string>
+    <string name="nombre_usuario">Nombre</string>
+    <string name="email_usuario">Email</string>
+    <string name="telefono_usuario">Telefono</string>
+    <string name="direccion_usuario">Direccion</string>
+    <string name="direccion_user">\n Av. Lara con Av. Los Leones \n Edificio Parque la musica \n numero 6 \n Barquisimeto Estado Lara</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_oufit_detail">OufitDetailActivity</string>
+</resources>

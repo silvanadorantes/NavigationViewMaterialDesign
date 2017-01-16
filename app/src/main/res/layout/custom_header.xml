@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/material_background2"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/status_bar_height"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgenPerfil"
+        android:layout_width="@dimen/perfil_image_size"
+        android:layout_height="@dimen/perfil_image_size"
+        android:elevation="@dimen/elevation_perfil_image"
+        android:src="@drawable/silvanadorantes"
+        android:layout_margin="@dimen/spacing_large"
+        android:layout_marginBottom="@dimen/spacing_large"
+        android:scaleType="centerCrop"
+        app:border_color="@color/white"
+        app:border_width="@dimen/border_perfil_image"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:layout_marginBottom="@dimen/spacing_large"
+        android:padding="@dimen/spacing_medium">
+
+        <TextView
+            android:id="@+id/tv_nombreUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silvana Dorantes"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/textcolorPrimary"/>
+
+        <TextView
+            android:id="@+id/tv_correoUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="silvanadorantes767@gmail.com"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/textcolorPrimary"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

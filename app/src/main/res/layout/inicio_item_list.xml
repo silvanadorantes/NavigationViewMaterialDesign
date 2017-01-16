@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/inicioitem"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp">
+
+    <ImageView
+        android:id="@+id/image_outfit"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:scaleType="centerCrop"
+        android:transitionName="@string/tag_image"/>
+
+    <TextView
+        android:id="@+id/nombre_outfit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/transparency"
+        android:maxLines="2"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:singleLine="true"
+        android:textSize="16sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:gravity="center"/>
+
+</LinearLayout>
